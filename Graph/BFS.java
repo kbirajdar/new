@@ -39,6 +39,7 @@ public class BFS {
             createGraph(start,dest,graph);
 
         }
+        sc.close();
         boolean visited[]=new boolean[vertic];
         ArrayList<Integer>ans=getBfs(0,graph,visited);
         System.out.print(ans);

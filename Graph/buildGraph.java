@@ -20,6 +20,7 @@ class buildGraph{
             int dest=sc.nextInt();
             createGraph(start,dest,graph);
         }
+        sc.close();
 
         System.out.print(graph);
     }
